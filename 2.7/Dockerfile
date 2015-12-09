@@ -1,8 +1,6 @@
 FROM grahamdumpleton/mod-wsgi-docker:python-2.7
 
-RUN chmod 1777 /app
-
-USER 33
+USER 1001
 
 EXPOSE 80
 
